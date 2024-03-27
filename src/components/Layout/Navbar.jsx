@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import apiLink from "../../../baseUrl";
 
 const Navbar = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);//iska kya kaam hain 
   const { isAuthorized, setIsAuthorized, user } = useContext(Context);
   const navigateTo = useNavigate();
 
