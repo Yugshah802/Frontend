@@ -33,6 +33,8 @@ const Login = () => {
       setPassword("");
       setRole("");
       setIsAuthorized(true);
+      console.log("hjdsh;;hk");
+      console.log(isAuthorized);
     } catch (error) {
       toast.error(error.response.data.message);
     }
