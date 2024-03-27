@@ -40,7 +40,7 @@ const MyApplications = () => {
   }, [isAuthorized]);
 
   if (!isAuthorized) {
-    navigateTo("/");
+    navigateTo("/login");
   }
 
   const deleteApplication = (id) => {

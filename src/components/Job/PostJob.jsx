@@ -22,7 +22,7 @@ const PostJob = () => {
     e.preventDefault();
     if (salaryType === "Fixed Salary") {
       setSalaryFrom("");
-      setSalaryFrom("");
+      setSalaryTo("");
     } else if (salaryType === "Ranged Salary") {
       setFixedSalary("");
     } else {
