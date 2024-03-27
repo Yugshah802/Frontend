@@ -20,6 +20,7 @@ import apiLink from "../baseUrl";
 
 const App = () => {
     const { isAuthorized, setIsAuthorized, setUser } = useContext(Context);
+    console.log(isAuthorized);
     useEffect(() => {
       const fetchUser = async () => {
         try {
