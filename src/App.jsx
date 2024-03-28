@@ -31,7 +31,7 @@ const App = () => {
             }
           );
           setUser(response.data.user);
-          setIsAuthorized(true);
+          // setIsAuthorized(true);
         } catch (error) {
           setIsAuthorized(false);
         }
