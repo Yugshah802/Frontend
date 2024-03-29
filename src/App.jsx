@@ -20,10 +20,11 @@ import apiLink from "../baseUrl";
 
 const App = () => {
     const { isAuthorized, setIsAuthorized, setUser } = useContext(Context);
-    console.log(isAuthorized);
+   
     useEffect(() => {
       const fetchUser = async () => {
         try {
+          console.log(isAuthorized);
           const response = await axios.get(
             `${apiLink}/api/v1/user/getuser`,
             {
@@ -37,7 +38,7 @@ const App = () => {
         }
       };
       fetchUser();
-    }, [isAuthorized]);
+    }, []);
   
     return (
       <>
