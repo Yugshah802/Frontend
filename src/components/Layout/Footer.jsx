@@ -19,7 +19,7 @@ const Footer = () => {
         <Link to={"https://www.linkedin.com/in/yug-shah-0205b6243/"} target="_blank">
           <FaLinkedin />
         </Link>
-        <Link to={"https://www.instagram.com"} target="_blank">
+        <Link to={"https://www.instagram.com/"} target="_blank">
           <RiInstagramFill />
         </Link>
       </div>
