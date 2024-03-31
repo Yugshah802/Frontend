@@ -13,7 +13,7 @@ const Footer = () => {
         <Link to={"https://www.facebook.com"} target="_blank">
           <FaFacebookF />
         </Link>
-        <Link to={"https://www.youtube.com"} target="_blank">
+        <Link to={"https://www.youtube.com/results?search_query=netapp"} target="_blank">
           <FaYoutube />
         </Link>
         <Link to={"https://www.linkedin.com/in/yug-shah-0205b6243/"} target="_blank">
